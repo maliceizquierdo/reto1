@@ -10,25 +10,30 @@ public class funciones2 {
 	public static int dividir(int n1, int n2) {
 		
 		int n3 = n1 / n2;
+		
 		if(n2==0) {
 			return 0;
 		}
 		return n3;
 	}
 
-	public static void esPositivo(int n1) {
+	public static boolean esPositivo(int n1) {
 
 		if (n1 > 0) {
 			
-			System.out.println("Positivo");
+			return true;
+		}else {
+			return false;
 		}
 
 	}
 
-	public static void esNegatico(int n1) {
+	public static boolean esNegatico(int n1) {
 
 		if (n1 < 0) {
-			System.out.println("Negativo");
+			return true;
+		}else {
+			return false;
 		}
 	}
 
