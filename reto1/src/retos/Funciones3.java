@@ -18,7 +18,6 @@ public class Funciones3 {
 			return true;
 		} else
 			return false;
-
 	}
 
 	public static int divisormayor1(int num3) {
