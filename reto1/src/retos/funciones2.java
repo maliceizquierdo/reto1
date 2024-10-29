@@ -19,6 +19,7 @@ public class funciones2 {
 	public static void esPositivo(int n1) {
 
 		if (n1 > 0) {
+			
 			System.out.println("Positivo");
 		}
 
