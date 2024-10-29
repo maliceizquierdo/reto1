@@ -53,6 +53,10 @@ public class reto1 {
 					
 				}
 				if(n==3) {
+					System.out.println("Introduce un numero ");
+					String s1 = sc.nextLine();
+					n1=Integer.parseInt(s1);
+					
 					
 				}
 			}

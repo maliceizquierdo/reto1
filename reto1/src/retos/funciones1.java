@@ -11,14 +11,20 @@ public class funciones1 {
 		c=a-b;
 		return c;
 	}
-	public static void par(int a) {
+	public static boolean par(int a) {
 		if(a%2==0) {
-			System.out.println("Es par");
+			return true;
+		}
+		else {
+			return false;
 		}
 	}
-	public static void impar(int a) {
+	public static boolean impar(int a) {
 		if(a%2!=0) {
-			System.out.println("Es impar");
+			return true;
+		}
+		else {
+			return false;
 		}
 	}
 }
